@@ -1,0 +1,116 @@
+<!--Tarea: Mi Curriculum Vitae------------------------->
+<!--Alumno: Emmanuel Cruz------------------------------>
+<!--Matricula: 357615---------------------------------->
+<!--Materia: Programacion para plataformas emergentes-->
+
+<!--Inicio de mi codigo para el html del curriculum---->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae - Emmanuel Cruz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- 1. Título -->
+    <h1>Currículum Vitae</h1>
+    <img src="Emmanuelc.jpg" alt = "Foto de Emmanuel Cruz" class="foto-perfil">
+
+    <!-- Botón para mis Datos Personales -->
+    <button class="toggle-btn" onclick="toggleSection('datos-personales')">Mostrar/Ocultar Datos Personales</button>
+    <!-- 2. Datos personales -->
+    <div class="section" id="datos-personales">
+        <h2>Datos Personales</h2>
+        <p><strong>Nombre:</strong> Emmanuel Cruz</p>
+        <p><strong>Correo Electrónico:</strong> a357615@uach.mx</p>
+        <p><strong>Teléfono:</strong> +52 614 569 80 85</p>
+        <p><strong>Dirección:</strong> Calle Francisco Beltran #7802, Colonia Luis Donaldo Colosio, Chihuahua, Chihuahua, Mexico</p>
+    </div>
+
+    <!-- Botón para Objetivo -->
+    <button class="toggle-btn" onclick="toggleSection('objetivo')">Mostrar/Ocultar Objetivo</button>
+    <!-- 3. Objetivo -->
+    <div class="section" id="objetivo">
+        <h2>Objetivo</h2>
+        <p>Soy un profesional con experiencia en brindar soporte y mantenimiento a los equipos de computo, por lo que estoy interesado en aprovechar todas las oportunidades que me permitan aplicar mis conocimientos en analizar, brindar un diagnostico, programación, seguridad preventiva y correctiva de los equipos de computo, de modo que tengo conocimientos en el uso de la libreria Office, asi como de creaciones de distintos diagramas y creacion de mapas de redes en Cisco Packet Tracer, de esta manera seguir creciendo mis conocimientos profesionalmente.</p>
+    </div>
+
+    <!-- Botón para Experiencia Profesional -->
+    <button class="toggle-btn" onclick="toggleSection('experiencia-profesional')">Mostrar/Ocultar Experiencia Profesional</button>
+    <!-- 4. Experiencia profesional -->
+    <div class="section" id="experiencia-profesional">
+        <h2>Experiencia Profesional</h2>
+        <ul>
+            <li><strong>Tecnico en Soporte y Mantenimiento de Equipo de Computo</strong> - Compañía Componentes HS (2019 - Presente)</li>
+            <li>1. Responsable de reparar e instalar componentes de equipo de computo, ademas de instalacion y actualizacion de software (Windows 7, 8.1, 10) (Linux Mint, Xubuntu, Ubunt, Pearl OS)</li>
+            <li>2. Instalador de redes de internet fisicas e inalambricas para la conexion de equipos (Computadoras, Laptops, Impresoras, Routers y Escaneres)</li>
+            <li>3. Creaciones de diagramas en Microsoft Visio (De Flujo, De Electricidad, De Redes)</li>
+            <li>4. Instalador de software para puntos de venta para tiendas de abarrotes (Eleventa)</li>
+        </ul>
+    </div>
+
+    <!-- Botón para Preparación Académica -->
+    <button class="toggle-btn" onclick="toggleSection('preparacion-academica')">Mostrar/Ocultar Preparación Académica</button>
+    <!-- 5. Preparación académica -->
+    <div class="section" id="preparacion-academica">
+        <h2>Preparación Académica</h2>
+        <ul>
+            <li><strong>Educacion Basica</strong></li> - Escuela Primaria 18 de Marzo (2009 - 2016)
+            <li><strong>Educacion Media</strong></li> - Escuela Secundaria Tecnica No#58 (2016 - 2019)
+            <li><strong>Educacion Media-Superior</strong></li> - Centro Bachillerato Tecnologico Industrial y de Servicios No.122 (2019 - 2021)
+            <li><strong>Ensamble de Equipo de Computo</strong> - <li> - Centro de Entrenamiento en Alta Tecnoligia CENALTEC (2019 - 2019) </li>
+            <li><strong>Electricidad Basica</strong> <li> - Centro de Entrenamiento en Alta Tecnoligia CENALTEC (2019 -2019) </li>
+            <li><strong>Cursos Google</strong> <li> - Competencias digitales para profesionales, Productividad personal, Como dirigir una empresa (2019)  </li>
+            <li><strong>Tecnico en Soporte y Mantenimiento de Equipo de Computo</strong> <li> - Centro Bachillerato Tecnologico Industrial y de Servicios No. 122 (2019-2021)</li>
+            <li><strong>Licenciatura en Ingeniería en Software</strong> <li> - Universidad Autonoma de Chihuahua (2021 - 2024)</li>
+        </ul>
+    </div>
+
+    <!-- Botón para Idiomas -->
+    <button class="toggle-btn" onclick="toggleSection('idiomas')">Mostrar/Ocultar Idiomas</button>
+    <!-- 6. Idiomas -->
+    <div class="section" id="idiomas">
+        <h2>Idiomas</h2>
+        <ul>
+            <li><strong>Español:</strong> Nativo</li>
+            <li><strong>Inglés:</strong> Avanzado (C3)</li>
+        </ul>
+    </div>
+
+    <!-- Botón para Habilidades -->
+    <button class="toggle-btn" onclick="toggleSection('habilidades')">Mostrar/Ocultar Habilidades</button>
+    <!-- 7. Habilidades -->
+    <div class="section" id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript, C++</li>
+            <li>Desarrollo Backend (Node.js, Python)</li>
+            <li>Gestión de Bases de Datos (SQL, SQLite, MongoDB)</li>
+            <li>Metodologías ágiles (Scrum, Kanban)</li>
+            <li>Paqueteria Office Basico (Word, PowerPoint, Excel, Publisher, Visio)</li>
+            <li>Modelado 3D (SolidWorks)</li>
+            <li>Conocimiento Basico de Electricidad</li>
+            <li>Virtualizacion de Software (VirtualBox)</li>
+            <li>Creacion de Diagramas de Redes (Cisco Packet Tracer)</li>
+            <li>Mantenimiento Preventivo y Correctivo de Hardware y Software</li>
+            <li>Soporte y Mantenimiento de Equipo de Computo</li>
+           
+        </ul>
+    </div>
+
+    <script>
+        function toggleSection(id) {
+            var section = document.getElementById(id);
+            if (section.style.display === "none") {
+                section.style.display = "block";
+            } else {
+                section.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+</html>
+
